@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f8fc;
+    color: #10233f;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* NAVBAR */
+
+header {
+    height: 80px;
+    background: #101c2d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #287df5;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a:hover {
+    color: #287df5;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.signup {
+    background: #287df5;
+    padding: 12px 22px;
+    border-radius: 25px;
+}
+
+
+/* HERO */
+
+.hero {
+    height: 320px;
+    padding: 35px 5%;
+    display: flex;
+    align-items: center;
+
+    background:url("images/hero.jpeg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.hero h1 span {
+    color: #287df5;
+}
+
+.hero p {
+    color: #ddd;
+    margin: 12px 0 20px;
+    line-height: 1.5;
+}
+
+
+/* SEARCH */
+
+.search {
+    background: white;
+    width: 700px;
+    max-width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    padding: 13px;
+    width: 40%;
+}
+
+.search a {
+    background: #287df5;
+    color: white;
+    padding: 13px 35px;
+    border-radius: 8px;
+}
+
+
+/* SECTIONS */
+
+.section {
+    padding: 25px 5%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.title a {
+    color: #287df5;
+}
+
+
+/* SERVICES */
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.services a {
+    padding: 18px;
+    border-radius: 10px;
+    background: #eaf4ff;
+}
+
+.services a:nth-child(1) {
+    background: #fff5dc;
+}
+
+.services a:nth-child(3) {
+    background: #e8fff0;
+}
+
+.services a:nth-child(4) {
+    background: #f0ecff;
+}
+
+.services a:nth-child(5) {
+    background: #fff0f1;
+}
+
+.services a:nth-child(6) {
+    background: #e8fbfb;
+}
+
+.services b {
+    font-size: 28px;
+}
+
+.services h3 {
+    margin: 12px 0 5px;
+}
+
+.services p {
+    font-size: 11px;
+    color: #64748b;
+}
+
+
